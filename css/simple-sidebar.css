@@ -3,7 +3,9 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
  */
-
+body{
+  font-family: 'Poppins', sans-serif;
+}
  #wrapper {
     overflow-x: hidden;
  }
