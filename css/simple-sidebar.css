@@ -1,3 +1,13 @@
+:root{
+  --facebook: #3b5998;
+  --instagram: #e4405f;
+  --whatsapp: #25d366;
+  --twitter: #00acee;
+  --tiktok: #FFFFFF;
+  --twitch: #6441a5;
+}
+
+
 body{
   font-family: 'Poppins', sans-serif;
   background-color: #BAF3F2;
@@ -47,17 +57,44 @@ body{
   }
 }
 
+/*estilo y animacion de los iconos*/
 .iconos{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 30px;
+  font-size: 35px;
+  height: 80px;
+}
+.iconos a{
+  color: black;
+  transition: .2s;
+}
+.iconos .fa-instagram:hover{
+  color: var(--instagram);
+}
+.iconos .fa-whatsapp:hover{
+  color: var(--whatsapp);
+}
+.iconos .fa-facebook:hover{
+  color: var(--facebook);
+}
+.iconos .fa-tiktok:hover{
+  color: var(--tiktok);
+}
+.iconos .fa-twitter:hover{
+  color: var(--twitter);
+}
+.iconos .fa-twitch:hover{
+  color: var(--twitch);
 }
 
+
+/*estilo del navbar*/
 .navbar{
   list-style: none;
   text-align: center;
-}
+
+  }
 .nav-link{
   display: inline-block;
   margin-block: 2px;
@@ -82,4 +119,17 @@ body{
 .nav-link:hover::after{
   transform: scaleX(1);
 }
+
+/*estilo de los cards en landing*/ 
+.card-deck .card{
+ border-radius: 10px;
+ overflow: hidden;
+ text-align: center;
+ transition: all 0.25s;
+ font-size: 12px;
+}
+.card-deck .card:hover{
+  transform: translateY(-10px);
+}
+
 
