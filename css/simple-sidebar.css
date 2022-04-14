@@ -98,7 +98,7 @@ body{
 .nav-link{
   display: inline-block;
   margin-block: 2px;
-  right: 30px;
+  right: 0px;
   text-decoration: none;
   position: relative;
   color: black;
@@ -121,6 +121,10 @@ body{
 }
 
 /*estilo de los cards en landing*/ 
+.card-deck{
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
 .card-deck .card{
  border-radius: 10px;
  overflow: hidden;
