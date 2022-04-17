@@ -10,7 +10,10 @@
 
 body{
   font-family: 'Poppins', sans-serif;
-  background-color: #BAF3F2;
+  /* background-color: #BAF3F2; */
+  background-color: #DBF0F0;
+  /* background: rgb(31,173,173);
+  background: linear-gradient(169deg, rgba(31,173,173,1) 0%, rgba(9,121,120,1) 48%, rgba(0,212,255,1) 100%); */
 }
  #wrapper {
     overflow-x: hidden;
