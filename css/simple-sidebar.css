@@ -64,7 +64,7 @@ body{
 .iconos{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-size: 35px;
   height: 80px;
 }
