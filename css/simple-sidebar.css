@@ -9,11 +9,12 @@
 
 
 body{
+  height: 100vh;
   font-family: 'Poppins', sans-serif;
   /* background-color: #BAF3F2; */
-  background-color: #DBF0F0;
-  /* background: rgb(31,173,173);
-  background: linear-gradient(169deg, rgba(31,173,173,1) 0%, rgba(9,121,120,1) 48%, rgba(0,212,255,1) 100%); */
+  /* background-color: #DAF7A6; */
+  background: rgb(221,231,231);
+  background: linear-gradient(169deg, rgba(221,231,231,1) 0%, rgba(177,180,181,1) 55%, rgba(204,211,212,1) 100%);
 }
  #wrapper {
     overflow-x: hidden;
@@ -92,7 +93,7 @@ body{
 }
 
 
-/*estilo del navbar*/
+/* ##################### estilo del navbar #######################*/ 
 .navbar{
   list-style: none;
   text-align: center;
@@ -123,12 +124,13 @@ body{
   transform: scaleX(1);
 }
 
-/*estilo de los cards en landing*/ 
+/* ########################## estilo de los cards en landing ######################*/ 
 .card-deck{
   margin-bottom: 15px;
   margin-top: 20px;
 }
 .card-deck .card{
+  
  border-radius: 10px;
  overflow: hidden;
  text-align: center;
@@ -141,6 +143,8 @@ body{
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
-
+.card-deck .card img{
+background-color: #FF5733;
+}
 
 
