@@ -9,7 +9,7 @@
 
 
 body{
-  height: 100vh;
+  height: 100%;
   font-family: 'Poppins', sans-serif;
   /* background-color: #BAF3F2; */
   /* background-color: #DAF7A6; */
@@ -130,12 +130,14 @@ body{
   margin-top: 20px;
 }
 .card-deck .card{
-  
+ background-color: transparent;
  border-radius: 10px;
+ border: none;
  overflow: hidden;
  text-align: center;
  transition: all 0.25s;
  font-size: 12px;
+ align-items: center;
  
 }
 .card-deck .card:hover{
@@ -144,7 +146,14 @@ body{
 }
 
 .card-deck .card img{
-background-color: #FF5733;
+/* background-color: #FF5733; */
+  height: auto;
+  width: auto;
+  max-width: 100px;
+  
+
 }
 
+
+/* ##################### Fades ########################*/
 
