@@ -106,6 +106,7 @@ body{
   text-decoration: none;
   position: relative;
   color: black;
+  font-size: 18px;
 }
 .nav-link::after{
   content: '';
