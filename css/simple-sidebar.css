@@ -158,3 +158,20 @@ body{
 
 /* ##################### Fades ########################*/
 
+
+.profiles{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.profiles .card {
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+}
+.profiles .card p {
+text-align: center;
+}
+.profiles img{
+  max-width: 130px;
+}
