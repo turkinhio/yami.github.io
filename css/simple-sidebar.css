@@ -131,6 +131,24 @@ body{
 .flyer img{
   width: 100%;
 }
+.flyer-mobile img{
+  width: 100%;
+}
+
+@media (max-width: 501px) {
+  .flyer {
+    display: none;
+  }
+
+}
+
+@media (min-width: 502px) {
+  .flyer-mobile {
+    display: none;
+  }
+
+}
+
 
 /* ########################## estilo de los cards en landing ######################*/ 
 .card-deck{
