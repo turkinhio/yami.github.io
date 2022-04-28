@@ -155,6 +155,29 @@ body{
 
 }
 
+/* ########################## carousel ######################*/ 
+
+.carousel .card{
+  background-color: transparent;
+  border-radius: 10px;
+  border: none;
+  overflow: hidden;
+  text-align: center;
+  transition: all 0.25s;
+  font-size: 13px;
+  align-items: center;
+  
+ }
+
+
+.carousel .card img{
+  /* background-color: #FF5733; */
+    height: auto;
+    width: auto;
+    max-width: 100px;
+    
+
+
 
 /* ##################### Fades ########################*/
 
