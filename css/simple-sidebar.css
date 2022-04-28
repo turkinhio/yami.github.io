@@ -179,6 +179,25 @@ body{
 }
 
 
+@media (max-width: 501px) {
+  .card-deck {
+    display: none;
+  }
+
+}
+
+@media (min-width: 502px) {
+  .carousel-inner {
+    display: none;
+  }
+
+}
+
+
+
+
+
+
 /* ##################### Fades ########################*/
 
 
