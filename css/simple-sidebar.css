@@ -125,6 +125,13 @@ body{
   transform: scaleX(1);
 }
 
+
+/* ########################## estilo de los cards en landing ######################*/
+
+.flyer img{
+  width: 100%;
+}
+
 /* ########################## estilo de los cards en landing ######################*/ 
 .card-deck{
   margin-bottom: 15px;
