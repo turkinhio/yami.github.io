@@ -99,7 +99,7 @@ body{
   
   list-style: none;
   text-align: center;
-  background-color: rgb(221,231,231);;
+  background-color: rgb(221,231,231,1);
   position: fixed;
   top: 0;
   left: 0;
