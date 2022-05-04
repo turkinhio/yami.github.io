@@ -72,7 +72,7 @@ body{
 }
 .iconos a{
   color: black;
-  transition: .2s;
+  transition: .4s;
 }
 .iconos .fa-instagram:hover{
   color: var(--instagram);
@@ -142,8 +142,15 @@ body{
 .flyer img{
   width: 100%;
 }
+
+.flyer-mobile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .flyer-mobile img{
-  width: 100%;
+  width: 130%;
 }
 
 @media (max-width: 501px) {
