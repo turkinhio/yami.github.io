@@ -139,8 +139,15 @@ body{
 
 /* ########################## estilo de los cards en landing ######################*/
 
+.flyer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
 .flyer img{
-  width: 100%;
+  width: 50%;
 }
 
 .flyer-mobile{
