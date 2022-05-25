@@ -166,7 +166,6 @@ body{
   }
 
 }
-
 @media (min-width: 502px) {
   .flyer-mobile {
     display: none;
@@ -243,13 +242,7 @@ body{
 
 }
 
-
-
-
-
-
-/* ##################### Fades ########################*/
-
+/* ##################### perfiles ########################*/
 
 .profiles{
   display: flex;
